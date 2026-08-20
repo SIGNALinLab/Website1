@@ -1,0 +1,15 @@
+{
+  "developmentDemo": true,
+  "records": [
+    {
+      "id": "SIG-REC-DEMO-001",
+      "status": "valid",
+      "applicantName": "DEMO RECORD — REMOVE BEFORE PRODUCTION",
+      "issueDate": "2026-08-19",
+      "documentType": "Recommendation validation demonstration",
+      "issuer": "SIGNAL Lab (development demo only)",
+      "publicDocumentUrl": "",
+      "note": "This validates only a demonstration record, not confidential recommendation text."
+    }
+  ]
+}

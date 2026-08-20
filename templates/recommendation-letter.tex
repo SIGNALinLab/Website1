@@ -1,0 +1,33 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=23mm]{geometry}\usepackage{graphicx,xcolor,hyperref,qrcode,fancyhdr,parskip,lastpage}
+\definecolor{signalnavy}{HTML}{0B1736}\definecolor{signalcyan}{HTML}{20D6D2}\definecolor{signalblue}{HTML}{3F7CFF}
+% ===== EDITABLE VARIABLES =====
+\newcommand{\LetterDate}{August 19, 2026}
+\newcommand{\ReferenceID}{SIG-REC-YYYY-NNN}
+\newcommand{\ApplicantName}{Applicant Name}
+\newcommand{\ApplicantContext}{Student / researcher context}
+\newcommand{\RecipientName}{Recipient / Employer}
+\newcommand{\RecommenderName}{Recommender Name}
+\newcommand{\RecommenderTitle}{Title, SIGNAL Lab}
+\newcommand{\OfficialEmail}{aaalorf@qu.edu.sa}
+\newcommand{\LabWebsite}{https://YOUR-DOMAIN/}
+\newcommand{\ValidationURL}{https://YOUR-DOMAIN/verify.html?id=\ReferenceID}
+% ==============================
+\hypersetup{colorlinks=true,urlcolor=signalblue}\pagestyle{fancy}\fancyhf{}\fancyfoot[C]{SIGNAL Lab \textbullet\ Page \thepage\ of \pageref{LastPage}}\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+\noindent\begin{minipage}[c]{0.25\textwidth}\includegraphics[width=\linewidth]{../assets/brand/logo-horizontal-2400.png}\end{minipage}\hfill\begin{minipage}[c]{0.70\textwidth}\raggedleft{\Large\bfseries\color{signalnavy} SIGNAL Lab}\\Signal Intelligence for Global Automation and Learning Laboratory\\\textit{We Decode Signals to Empower the Future}\\Department of Electrical Engineering, College of Engineering, Qassim University\end{minipage}
+\vspace{5mm}\hrule\vspace{6mm}
+\textbf{Date:} \LetterDate\hfill\textbf{Reference:} \ReferenceID\\
+\textbf{Applicant:} \ApplicantName\\\textbf{Context:} \ApplicantContext\\\textbf{To:} \RecipientName
+\vspace{5mm}
+Dear Sir or Madam,
+
+I am pleased to provide this professional recommendation for \ApplicantName. Replace this paragraph and the following body text with the approved recommendation content. Keep claims factual, specific, and appropriate to the intended recipient.
+
+[Recommendation body — editable.]
+
+Sincerely,\\[10mm]
+\textbf{\RecommenderName}\\\RecommenderTitle\\\href{mailto:\OfficialEmail}{\OfficialEmail}\\\url{\LabWebsite}
+
+\vfill\noindent\begin{minipage}[c]{0.72\textwidth}\small\textbf{Document-record validation:} \url{\ValidationURL}\\The QR code validates the public document record only; it does not expose or cryptographically attest to confidential recommendation prose.\end{minipage}\hfill\begin{minipage}[c]{0.22\textwidth}\centering\qrcode[height=26mm]{\ValidationURL}\end{minipage}
+\end{document}
