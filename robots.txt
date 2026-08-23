@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-# Add the production sitemap URL after the deployment domain is known.
