@@ -1,0 +1,17 @@
+{
+  "medicine": {
+    "label": "SIGNAL in Medicine"
+  },
+  "security": {
+    "label": "SIGNAL in Defense & Security"
+  },
+  "education": {
+    "label": "SIGNAL in Education"
+  },
+  "energy": {
+    "label": "SIGNAL in Energy & Sustainability"
+  },
+  "ai": {
+    "label": "SIGNAL in AI & Optimization"
+  }
+}
