@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+# Add the production Sitemap URL after canonicalBaseUrl is configured.

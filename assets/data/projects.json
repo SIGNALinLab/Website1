@@ -1,0 +1,304 @@
+{
+  "lastMigrated": "2026-08-23",
+  "sourceExports": [
+    "SIGNAL Lab - GPO Projects.html",
+    "SIGNAL Lab - SDPs.html"
+  ],
+  "groups": {
+    "gpo": {
+      "title": "Government, Private, and Organizational (GPO) Projects",
+      "description": "Funded, submitted, and organizational research projects led or supervised through SIGNAL Lab.",
+      "records": [
+        {
+          "id": "jpdaf-ai-tracker",
+          "title": "Design & Analysis of JPDAF Tracker with AI-Enabled Maneuvering Models",
+          "status": "GPO Project",
+          "duration": "06/2025–06/2026",
+          "funder": "Prince Sultan Defense Studies and Research Center (PSDSARC)",
+          "amount": "277,150 SAR",
+          "description": "This project, which aims to enhance radar target tracking through the integration of artificial intelligence, was accepted by the Prince Sultan Defense Studies and Research Center (PSDSARC) and awarded funding of 277,150 SAR for a one-year duration. The project aims to advance target tracking capabilities by incorporating AI into the Joint Probabilistic Data Association Filter (JPDAF) algorithm. It utilizes Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs)/Long Short-Term Memory (LSTM) networks to enhance performance in complex, high-acceleration scenarios while also extending functionality to bistatic and passive radar systems for increased accuracy and adaptability.",
+          "team": [
+            {
+              "label": "Principal Investigator (PI)",
+              "members": [
+                "Dr. Abdulaziz Alorf"
+              ]
+            },
+            {
+              "label": "Co-investigators (Co-Is)",
+              "members": [
+                "Dr. Mohammed Aloraini",
+                "Dr. Mohammed Alfayizi"
+              ]
+            }
+          ],
+          "technologies": [
+            "JPDAF",
+            "CNNs",
+            "RNN/LSTM",
+            "Bistatic radar",
+            "Passive radar"
+          ],
+          "media": {
+            "src": "assets/images/projects/gpo/jpdaf-tracker-demo.gif",
+            "preview": "assets/images/projects/previews/jpdaf.webp",
+            "alt": "Animated radar tracking plot showing a target trajectory and JPDAF tracking behavior.",
+            "width": 471,
+            "height": 360,
+            "previewWidth": 471,
+            "previewHeight": 360
+          }
+        },
+        {
+          "id": "ai-airspace-security",
+          "title": "AI-Driven Airspace Security",
+          "status": "Proposal under review",
+          "duration": "04/2025–Present",
+          "funder": "Proposal Submitted and Currently Under Review",
+          "amount": "N/A",
+          "description": "The supplied legacy GPO source repeats the JPDAF tracker technical description for this project. To avoid presenting that duplicated text as a verified project-specific claim, this migrated page preserves the verified project title, status, duration, team, and demonstration while leaving the project-specific scope for owner confirmation.",
+          "team": [
+            {
+              "label": "Principal Investigator (PI)",
+              "members": [
+                "Dr. Abdulaziz Alorf"
+              ]
+            },
+            {
+              "label": "Master’s-Level Researchers",
+              "members": [
+                "Eng. Muhannad Alsultan",
+                "Eng. Abdullah A. Alomayrini",
+                "Eng. Yousif Hussain"
+              ]
+            },
+            {
+              "label": "Bachelor’s-Level Researchers",
+              "members": [
+                "Abdullah Al-Aliqi",
+                "Mohammed Almousa",
+                "Ryan Aldakhil"
+              ]
+            }
+          ],
+          "technologies": [],
+          "media": {
+            "src": "assets/images/projects/gpo/airspace-security-demo.gif",
+            "preview": "assets/images/projects/previews/airspace.webp",
+            "alt": "Animated airspace-security demonstration showing an airborne target inside a detection region.",
+            "width": 640,
+            "height": 360,
+            "previewWidth": 640,
+            "previewHeight": 360
+          }
+        },
+        {
+          "id": "vehicle-access-automation",
+          "title": "Vehicle Access Automation",
+          "status": "GPO Project",
+          "duration": "01/2025–10/2025",
+          "funder": "Deanship of Postgraduate Studies and Scientific Research at Qassim University",
+          "amount": "24,000 SAR",
+          "description": "Automation is a key goal of Saudi Vision 2030; however, most vehicle gates in the country remain manual, resulting in inefficiencies and security risks. This project proposes a sustainable, computer vision–based gate automation system with strong anti-spoofing capabilities. We detect the nearest car using IoU and extract three features: car make/model, Saudi license-plate recognition, and face recognition. These are matched against a database, followed by a final decision via a linear SVM. The prototype source page reports approximately 94% accuracy.",
+          "team": [
+            {
+              "label": "Principal Investigator (PI)",
+              "members": [
+                "Dr. Abdulaziz Alorf"
+              ]
+            },
+            {
+              "label": "Master’s-Level Researchers",
+              "members": [
+                "Eng. Yousif Hussain",
+                "Eng. Muhannad Alsultan",
+                "Eng. Thamer Alghonaim"
+              ]
+            }
+          ],
+          "technologies": [
+            "Computer vision",
+            "IoU",
+            "Vehicle recognition",
+            "Saudi license-plate recognition",
+            "Face recognition",
+            "Linear SVM"
+          ],
+          "media": {
+            "src": "assets/images/projects/shared/vehicle-access-demo.gif",
+            "preview": "assets/images/projects/previews/vehicle.webp",
+            "alt": "Animated vehicle-access demonstration with a vehicle detection region.",
+            "width": 600,
+            "height": 338,
+            "previewWidth": 600,
+            "previewHeight": 338
+          }
+        }
+      ]
+    },
+    "sdp": {
+      "title": "Senior Design Projects (SDPs)",
+      "description": "Undergraduate senior-design work supervised through SIGNAL Lab, with source reports, presentations, repositories, and demos where available.",
+      "records": [
+        {
+          "id": "automated-attendance-system",
+          "title": "Design and Implementation of a Novel and Robust Automated Attendance System",
+          "status": "SDP",
+          "duration": "01/2024–12/2024",
+          "funder": "Partially Funded by the Innovation and Intellectual Property Center at Qassim University",
+          "amount": "~1,000 SAR",
+          "description": "This project presents a smart and robust automated attendance system using computer vision and deep learning. Designed for educational institutions, it tracks student attendance in real time by capturing multiple images during class, recognizing faces to mark presence, detect latecomers, and ensure students remain throughout the session. The system uses YOLOv8 for person detection and InsightFace for face recognition. The supplied source reports 96.30% accuracy.",
+          "team": [
+            {
+              "label": "Supervisor",
+              "members": [
+                "Dr. Abdulaziz Alorf"
+              ]
+            },
+            {
+              "label": "Undergraduate Students",
+              "members": [
+                "Abdullah Alomayrini",
+                "Abdulmalik Alqifari",
+                "Tawfeeq Osman",
+                "Abdulmalik Alzaid"
+              ]
+            }
+          ],
+          "technologies": [
+            "YOLOv8",
+            "InsightFace",
+            "Computer vision",
+            "Deep learning",
+            "Face recognition",
+            "Real-time monitoring"
+          ],
+          "media": {
+            "src": "assets/images/projects/sdps/attendance-demo.png",
+            "preview": "assets/images/projects/previews/attendance.webp",
+            "alt": "Automated attendance recognition demonstration in a classroom.",
+            "width": 1088,
+            "height": 697,
+            "previewWidth": 900,
+            "previewHeight": 577
+          },
+          "award": {
+            "title": "Innovation Incubator recognition",
+            "text": "This project was selected among the top 20 out of approximately 200 submissions in the Innovation Incubator organized by the Innovation and Intellectual Property Center at Qassim University. It was awarded 150,000 SAR in funding to support its launch as a start-up company.",
+            "image": "assets/images/projects/sdps/attendance-award.jpg",
+            "alt": "Project team receiving recognition at an Innovation and Intellectual Property Center event.",
+            "width": 1280,
+            "height": 1249
+          },
+          "links": [
+            {
+              "label": "Project report",
+              "url": "https://drive.google.com/file/d/17LufmoFD0JRbl9gvJGuomynqRE7ry2rH/view?usp=sharing",
+              "type": "report"
+            },
+            {
+              "label": "Presentation 1",
+              "url": "https://docs.google.com/presentation/d/19Kc29X2f7abVrhlEMiTUjqBb6P8KJ7Qh/edit?usp=sharing",
+              "type": "presentation"
+            },
+            {
+              "label": "Presentation 2",
+              "url": "https://docs.google.com/presentation/d/1jwkAWXy9P6MtP-z4pPN7It5KFXd_xA9Z/edit?usp=sharing",
+              "type": "presentation"
+            },
+            {
+              "label": "GitHub",
+              "url": "https://github.com/SIGNALinLab/Design-and-Implementation-of-a-Novel-and-Robust-Automated-Attendance-System",
+              "type": "github"
+            },
+            {
+              "label": "YouTube",
+              "url": "https://youtu.be/yW4eRBmuZa0",
+              "type": "video"
+            },
+            {
+              "label": "Published chapter",
+              "url": "https://doi.org/10.1007/978-3-031-92605-1_7",
+              "type": "publication"
+            }
+          ]
+        },
+        {
+          "id": "vehicle-gate-anti-spoofing",
+          "title": "Design and Implementation of a Robust Anti-Spoofing System for Vehicle Gate Access Using Recent Artificial Intelligence Techniques",
+          "status": "SDP",
+          "duration": "08/2023–06/2024",
+          "funder": "Logistically Supported by the Innovation and Intellectual Property Center at Qassim University",
+          "amount": "N/A",
+          "description": "The system automates vehicle gate access using computer vision and machine learning. It detects the nearest vehicle via intersection over union (IoU), then extracts car make, license plate, and driver face using specialized models. These features are matched against an authorized database and a linear SVM makes the final access decision. The source reports 97% vehicle classification, 93.1% license-plate recognition, 57% face recognition, and 97% overall classification accuracy.",
+          "team": [
+            {
+              "label": "Supervisor",
+              "members": [
+                "Dr. Abdulaziz Alorf"
+              ]
+            },
+            {
+              "label": "Undergraduate Students",
+              "members": [
+                "Muhannad Alsultan",
+                "Thamer Alghonaim",
+                "Bandar Alwazzan",
+                "Faisal Alsakakir",
+                "Abdullah Alhassan"
+              ]
+            }
+          ],
+          "technologies": [
+            "Computer vision",
+            "Machine learning",
+            "IoU",
+            "Vehicle classification",
+            "License-plate recognition",
+            "Face recognition",
+            "Linear SVM"
+          ],
+          "media": {
+            "src": "assets/images/projects/sdps/vehicle-gate-demo.gif",
+            "preview": "assets/images/projects/previews/vehicle.webp",
+            "alt": "Animated vehicle-gate anti-spoofing demonstration.",
+            "width": 600,
+            "height": 338,
+            "previewWidth": 600,
+            "previewHeight": 338
+          },
+          "award": {
+            "title": "Innovation Incubator recognition",
+            "text": "This project was selected among the top 20 out of approximately 200 submissions in the Innovation Incubator organized by the Innovation and Intellectual Property Center at Qassim University. It was awarded 150,000 SAR in funding to support its launch as a start-up company.",
+            "image": "assets/images/projects/sdps/vehicle-gate-award.jpg",
+            "alt": "Project team at the Innovation and Intellectual Property Center event.",
+            "width": 1280,
+            "height": 1249
+          },
+          "links": [
+            {
+              "label": "Project report",
+              "url": "https://drive.google.com/file/d/11jwqAeTLzOUC2CxRiHeDdl6dxaW1bD4u/view?usp=sharing",
+              "type": "report"
+            },
+            {
+              "label": "Presentation",
+              "url": "https://docs.google.com/presentation/d/1u7CBvbewcusCYlRjWx_iQOqxspZ-QFgq/edit?usp=sharing",
+              "type": "presentation"
+            },
+            {
+              "label": "YouTube",
+              "url": "https://youtu.be/7PJOfU9Fz9M",
+              "type": "video"
+            },
+            {
+              "label": "TRI-GATE publication",
+              "url": "https://doi.org/10.14569/IJACSA.2026.0170192",
+              "type": "publication"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
