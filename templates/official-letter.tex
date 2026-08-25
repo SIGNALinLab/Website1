@@ -1,0 +1,98 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[margin=23mm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{array}
+
+% -----------------------------------------------------------------------------
+% EDITABLE LETTER VARIABLES
+% -----------------------------------------------------------------------------
+\newcommand{\LetterDate}{\today}
+\newcommand{\ReferenceNumber}{SIG-LTR-YYYY-NNN}
+\newcommand{\RecipientName}{Recipient Name}
+\newcommand{\RecipientTitle}{Recipient Title}
+\newcommand{\RecipientOrganization}{Recipient Organization}
+\newcommand{\SubjectLine}{Subject of Official Correspondence}
+\newcommand{\SignatoryName}{Signatory Name}
+\newcommand{\SignatoryTitle}{Signatory Title}
+\newcommand{\SignatoryEmail}{aaalorf@qu.edu.sa}
+\newcommand{\LabWebsite}{https://YOUR-DOMAIN}
+\newcommand{\ExpandedLabName}{Signal Intelligence for Global Automation and Learning Laboratory}
+\newcommand{\LabSlogan}{We Decode Signals to Empower the Future}
+\newcommand{\Affiliation}{Department of Electrical Engineering, College of Engineering, Qassim University}
+\newcommand{\LetterBody}{%
+Replace this placeholder with the approved formal correspondence. Keep statements factual, institutionally appropriate, and within the signatory's authority.}
+
+\graphicspath{{../assets/brand/}{assets/brand/}}
+\definecolor{SignalBlue}{HTML}{2F68AD}
+\definecolor{SignalCyan}{HTML}{20BFC1}
+\definecolor{SignalInk}{HTML}{17324D}
+\definecolor{SignalSlate}{HTML}{5C7084}
+\definecolor{SignalLine}{HTML}{D7E4EC}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\urlstyle{same}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyfoot[L]{\footnotesize\color{SignalSlate}SIGNAL Lab · \ReferenceNumber}
+\fancyfoot[R]{\footnotesize\color{SignalSlate}Page \thepage\ of \pageref{LastPage}}
+
+\begin{document}
+
+\begin{minipage}[t]{0.56\textwidth}
+  \includegraphics[width=0.92\linewidth]{logo-horizontal-2400.png}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.40\textwidth}
+  \raggedleft
+  {\small\color{SignalSlate}\Affiliation\par}
+  \vspace{0.35em}
+  {\small\href{mailto:\SignatoryEmail}{\SignatoryEmail}\par}
+  {\small\url{\LabWebsite}\par}
+\end{minipage}
+
+\vspace{0.9em}
+{\color{SignalBlue}\rule{\textwidth}{1.2pt}}
+\vspace{0.65em}
+
+{\small\color{SignalSlate}\ExpandedLabName\par}
+{\small\bfseries\color{SignalInk}\LabSlogan\par}
+
+\vspace{0.8em}
+\begin{tabular}{@{}>{\bfseries\color{SignalInk}}p{34mm}p{\dimexpr\textwidth-42mm\relax}@{}}
+Date: & \LetterDate \\
+Reference: & \ReferenceNumber \\
+Recipient: & \RecipientName \\
+Title: & \RecipientTitle \\
+Organization: & \RecipientOrganization \\
+Subject: & \SubjectLine \\
+\end{tabular}
+
+\vspace{1em}
+Dear \RecipientName,\par
+
+\LetterBody
+
+\vspace{1.6em}
+Sincerely,\par
+\vspace{1.6em}
+{\color{SignalLine}\rule{70mm}{0.6pt}}\par
+\textbf{\SignatoryName}\par
+\SignatoryTitle\par
+SIGNAL Lab\par
+\Affiliation\par
+\href{mailto:\SignatoryEmail}{\SignatoryEmail}\par
+\url{\LabWebsite}
+
+\vfill
+{\small\color{SignalSlate}Official SIGNAL Lab correspondence · \ExpandedLabName}
+
+\end{document}
